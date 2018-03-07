@@ -12,11 +12,49 @@ body{
   float: left;
   border: 1px solid #00D2FF;
 }
+
 .destiny {
-  color:#8839FF;
+  color:#fff;
   font-size: 22px;
   padding-left: 170px;
   padding-top: 20px; 
-  text-shadow: 2px 2px  #fff;
+  text-shadow: 2px 2px  #000;
+}
+.social-network {
+    padding: 0px;
+    float: left;
+    margin-top: 70px;
 }
 
+.img-social{
+      width: 40px;
+      height: 40px;
+      background: #000;
+      margin-bottom: 5px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      padding: 5px;
+}
+.img-entrada{
+  padding-top: 10px;
+
+}
+.title-man{
+  padding-top: 20px;
+  padding-left: 8px;
+  color: red;
+  text-shadow: 1px 1px #fff;
+}
+.contenido-man{
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: justify;
+  color: #FFF;
+}
+.title2{
+    padding-left: 10px;
+}
+@media #{$medium-and-up}
+{
+background-attachment:fixed;
+}
