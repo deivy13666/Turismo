@@ -1,0 +1,22 @@
+body{
+  background-image: url(../img/background.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;	
+}
+.logo {
+  width: 150px;
+  margin-top: 15px;
+  margin-left: 15px;
+  float: left;
+  border: 1px solid #00D2FF;
+}
+.destiny {
+  color:#8839FF;
+  font-size: 22px;
+  padding-left: 170px;
+  padding-top: 20px; 
+  text-shadow: 2px 2px  #fff;
+}
+
